@@ -1,0 +1,153 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #e6f7ff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.header {
+  font-size: 28px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #cce7ff;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 14px 35px;
+  background-color: #009688;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.4s ease, transform 0.3s ease;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+}
+
+.nav-link:hover {
+  background-color: #00796b;
+  transform: scale(1.08);
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.student-table th {
+  background-color: #009688;
+  color: white;
+  text-align: left;
+  padding: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.student-table td {
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.student-table tr:hover {
+  background-color: #e0f2f1;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.form label {
+  font-size: 17px;
+  color: #444;
+  font-weight: 700;
+}
+
+.form-input {
+  padding: 14px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: #009688;
+  outline: none;
+}
+
+.btn {
+  padding: 14px 30px;
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #303f9f;
+  transform: translateY(-3px);
+}
+
+.btn-danger {
+  background-color: #e53935;
+}
+
+.btn-danger:hover {
+  background-color: #d32f2f;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input-group .form-input {
+  flex: 1;
+}
+
+.input-group button {
+  margin-left: 12px;
+  padding: 14px 25px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-group button:hover {
+  background-color: #e64a19;
+}
