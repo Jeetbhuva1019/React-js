@@ -1,0 +1,47 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li {
+  font-size: 22px;
+  list-style: disc;
+}
+
+/* General styling for the list */
+ul {
+  list-style-type: none;
+  /* Remove default bullet points */
+  padding: 0;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  /* Add a border around the list */
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 300px;
+}
+
+/* Styling for individual list items */
+li {
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Add spacing between the title and price */
+li:first-child {
+  font-weight: bold;
+  /* Make title bold */
+  border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+  color: #1a73e8;
+  /* Change color for the price */
+}
+
+/* Hover effect for the list */
+ul:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.02);
+  transition: all 0.3s ease;
+}
